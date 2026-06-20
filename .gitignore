@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+.env.*
+
+# 密钥 / 凭据 / 运行时敏感文件（绝不可提交到公开仓库）
+secrets/
+.codex-access-code
+.codex-blocked-keys
+.codex-connector-devices.json
+.codex-machine-secret
+.codex-remote-connector/
+connector-bundle.cjs
+apps/mobile-web/public/tips/
+tools/douyin-*/
+*.pem
+*.key
